@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class PSOSolution extends Search {
-	//particle's best fitness
-	protected bestPosClass bestPos;
+    //particle's best fitness
+    protected bestPosClass bestPos;
     protected ArrayList<Double> velocity;
     
     public class bestPosClass extends Search {
