@@ -17,8 +17,6 @@ public class CSPSOKmean {
         String data = "\n==== Hybrid of Cuckoo search and PSO search for attribute Selection and Simlple K-Mean Clustering ====\n\n";
         try {
             //Select Attribute throgh Hybrid Search 
-            
-
             //K-Mean Clustering            
             Instances kdata = new Instances(classData);
             kdata.setClassIndex(-1);
